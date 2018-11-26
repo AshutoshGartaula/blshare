@@ -1,0 +1,176 @@
+/* Setting Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* Set Body and HTML height,width 100% and remove any padding, margin. */
+body, html
+{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+/* Main Share Div */
+.bl_share
+{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	font-family: 'Poppins', sans-serif;
+}
+.bl_hidden
+{
+	display: none;
+}
+/* Semi-Black Div to dim the website content. */
+.bl_popup_protector
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.4;
+	z-index: 999998;
+}
+/* Popup Styling (height width postion) */
+.bl_share_popup
+{
+	z-index: 999999;
+	width: 550px;
+	margin: 0 auto;
+	max-width: 600px;
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -275px;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+.bl_copied
+{
+	z-index: 999999;
+	width: 120px;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -40px;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 3px;
+	display: none;
+}
+
+/* Share Container */
+.bl_share_container
+{
+	padding: 25px;
+}
+/* Components */
+.bl_heading
+{
+	margin-bottom: 10px;
+}
+.bl_header
+{
+	content: "";
+	font-weight: 550;
+	width: 100%;
+	line-height: 20px;
+	font-size: 16px;
+}
+.bl_header:after
+{
+	content: "Share on your favourite social media.";
+}
+.bl_text_center
+{
+	text-align: center;
+}
+.bl_close
+{
+	float: right;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display:inline-block;
+	-webkit-transform:scale(1.3,1); /* Safari and Chrome */
+	-moz-transform:scale(1.3,1); /* Firefox */
+	-ms-transform:scale(1.3,1); /* IE 9 */
+	-o-transform:scale(1.3,1); /* Opera */
+	transform:scale(1.3,1); /* W3C */
+}
+.bl_row
+{
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-content: center;
+	align-content: center;
+}
+.bl_col_2
+{
+	width: 15.67%;
+	float: left;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 2%;
+	padding: 2% 0;
+}
+.bl_col_2:hover
+{
+	background: #666;
+	color: #fff;
+	border-radius: 2px;
+	transition: 0.2s ease;
+}
+.bl_col_12
+{
+	width: 100%;
+	float: left;
+}
+.bl_icon svg
+{
+	height: 50px;
+	width: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 4px;
+}
+/* Input Field and Copy Button */
+.bl_input
+{
+	width: 100%;
+	padding: 0 20px;
+	border-radius: 3px;
+}
+.bl_input input
+{
+	background: none;
+	border: none;
+	width: 100%;
+	padding: 15px 60px 15px 0;
+	float: left;
+	font-family: 'Poppins', sans-serif;
+}
+.bl_input #bl_copy
+{
+	content: "";
+	float: right;
+	height: 15px;
+	padding: 15px;
+	margin-top: -45px;
+	margin-right: -15px;
+	font-weight: 600;
+	color: #2793e6;
+	cursor: pointer;
+	font-size: 14px;
+}
+.bl_input #bl_copy:after
+{
+	content: "COPY";
+}

@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+	.bl_share_popup
+	{
+		width: 320px;
+		margin-left: -160px;
+	}
+	.bl_icon svg
+	{
+		height: 40px;
+		width: 40px;
+		margin-bottom: 0;
+	}
+	.bl_col_2
+	{
+		font-size: 0px;
+	}
+	.bl_header
+	{
+		content: "";
+	}
+	.bl_header:after
+	{
+		content: "Share this Link";
+	}
+}

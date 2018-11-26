@@ -1,0 +1,30 @@
+/* Light Theme */
+.bl_theme_light, .bl_theme_light .bl_copied
+{
+	background: #fff;
+	color: #282828;
+}
+.bl_theme_light .bl_primary
+{
+	color: #666;
+}
+.bl_theme_light .bl_secondary
+{
+	color: #555;
+}
+.bl_theme_light .bl_close:hover
+{
+	color: #000;
+}
+.bl_theme_light .bl_input
+{
+	background: #ddd;
+}
+.bl_theme_light .bl_input input
+{
+	color: #444;
+}
+.bl_theme_light #bl_copy
+{
+	background: #ddd;
+}

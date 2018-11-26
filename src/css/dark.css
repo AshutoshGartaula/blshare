@@ -1,0 +1,30 @@
+/* Dark Theme */
+.bl_theme_dark, .bl_theme_dark .bl_copied
+{
+	background: #282828;
+	color: #fff;
+}
+.bl_theme_dark .bl_primary
+{
+	color: #bbb;
+}
+.bl_theme_dark .bl_secondary
+{
+	color: #999;
+}
+.bl_theme_dark .bl_close:hover
+{
+	color: #fff;
+}
+.bl_theme_dark .bl_input
+{
+	background: #1c1c1c;
+}
+.bl_theme_dark .bl_input input
+{
+	color: #fff;
+}
+.bl_theme_dark #bl_copy
+{
+	background: #1c1c1c;
+}
