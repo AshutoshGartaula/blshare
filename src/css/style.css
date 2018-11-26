@@ -147,6 +147,7 @@ body, html
 	width: 100%;
 	padding: 0 20px;
 	border-radius: 3px;
+	height: 50px;
 }
 .bl_input input
 {
@@ -154,8 +155,10 @@ body, html
 	border: none;
 	width: 100%;
 	padding: 15px 60px 15px 0;
+	font-size: 12px !important;
 	float: left;
 	font-family: 'Poppins', sans-serif;
+	position: relative;
 }
 .bl_input #bl_copy
 {
@@ -163,12 +166,13 @@ body, html
 	float: right;
 	height: 15px;
 	padding: 15px;
-	margin-top: -45px;
-	margin-right: -15px;
 	font-weight: 600;
+	margin-left: -115px;
 	color: #2793e6;
 	cursor: pointer;
 	font-size: 14px;
+	line-height: 18px;
+	position: absolute;
 }
 .bl_input #bl_copy:after
 {
