@@ -148,6 +148,7 @@ body, html
 	padding: 0 20px;
 	border-radius: 3px;
 	height: 50px;
+	position: relative;
 }
 .bl_input input
 {
@@ -157,7 +158,7 @@ body, html
 	font-size: 12px !important;
 	float: left;
 	font-family: 'Poppins', sans-serif;
-	position: relative;
+	width: 100%;
 }
 .bl_input #bl_copy
 {
@@ -166,7 +167,7 @@ body, html
 	height: 15px;
 	padding: 15px;
 	font-weight: 600;
-	right: 40px;
+	right: 0;
 	color: #2793e6;
 	cursor: pointer;
 	font-size: 14px;
