@@ -8,7 +8,8 @@
 {
 	color: #bbb;
 }
-.bl_theme_dark .bl_secondary
+.bl_theme_dark .bl_secondary,
+.bl_theme_dark .bl_input input
 {
 	color: #999;
 }
@@ -16,14 +17,7 @@
 {
 	color: #fff;
 }
-.bl_theme_dark .bl_input
-{
-	background: #1c1c1c;
-}
-.bl_theme_dark .bl_input input
-{
-	color: #fff;
-}
+.bl_theme_dark .bl_input,
 .bl_theme_dark #bl_copy
 {
 	background: #1c1c1c;

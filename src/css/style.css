@@ -159,8 +159,9 @@ body, html
 	float: left;
 	font-family: 'Poppins', sans-serif;
 	width: 100%;
+	outline: none;
 }
-.bl_input #bl_copy
+.bl_input .bl_copy_btn
 {
 	content: "";
 	float: right;
@@ -174,7 +175,7 @@ body, html
 	line-height: 18px;
 	position: absolute;
 }
-.bl_input #bl_copy:after
+.bl_input .bl_copy_btn:after
 {
 	content: "COPY";
 }
